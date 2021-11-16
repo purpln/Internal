@@ -1,0 +1,5 @@
+module Internal [system] {
+    umbrella header "Internal.h"
+    module * { export * }
+    export *
+}
