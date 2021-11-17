@@ -1,5 +1,5 @@
 #pragma once
-typedef int CGSTransitionID;
+typedef int CGSConnectionID;
 
 CG_EXTERN CGSConnectionID CGSMainConnectionID(void);
 //CG_EXTERN CGRect GSFullScreenApplicationContentRect();
