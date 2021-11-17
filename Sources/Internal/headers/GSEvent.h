@@ -195,7 +195,7 @@ typedef struct GSEventRecord {
     CFIndex infoSize;       // 0x38
 } GSEventRecord;
 
-CFTypeID GSEventGetTypeID();
+CG_EXTERN CFTypeID GSEventGetTypeID();
 
 GSEventRef GSEventCopy(GSEventRef event);
 GSEventRef GSEventCreateWithEventRecord(const GSEventRecord *record);
